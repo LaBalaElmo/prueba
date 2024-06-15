@@ -5,4 +5,4 @@ from rest_framework.decorators import api_view
 @api_view(['GET'])
 def index(request):
     if request.method == 'GET':
-        return JsonResponse(data={'message': 'Hello World'}, status=200)
+        return JsonResponse(data={'message': 'Hello From Django'}, status=200)
